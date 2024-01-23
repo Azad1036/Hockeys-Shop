@@ -30,7 +30,8 @@
 <body class="font-family-manrope">
     <header>
         <!-- Nav Section start -->
-        <nav class="container mx-auto mt-4">
+
+        <nav class="container mx-auto px-8 lg:py-8 py-8">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
                     <div class="dropdown">
@@ -41,7 +42,8 @@
                                     d="M4 6h16M4 12h8m-8 6h16" />
                             </svg>
                         </div>
-                        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                             <li><a>Home</a></li>
                             <li><a>About</a></li>
                             <li><a>Pages</a></li>
@@ -49,7 +51,7 @@
                             <li><a>Contact</a></li>
                         </ul>
                     </div>
-                    <a class="btn btn-ghost text-2xl font-extrabold lg:text-3xl">Hockey<span class="text-[#FF4240]">’</span>s</a>
+                    <a class="text-2xl font-extrabold lg:text-3xl">Hockey<span class="text-[#FF4240]">’</span>s</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1">
@@ -61,18 +63,82 @@
                     </ul>
                 </div>
                 <div class="navbar-end lg:space-x-6">
-                    <div class="flex lg:show" >
-                        <i class="fa-solid fa-magnifying-glass"></i>
+                    <div class="flex lg:show">
+                        <i class="fa-solid hidden md:block fa-magnifying-glass"></i>
                     </div>
-                    
+
                     <a class="btn bg-[#FF4240] px-6 text-white ">Get Ticket</a>
                 </div>
             </div>
         </nav>
         <!-- Nav Section end -->
 
+        <!-- hockeys samply section -->
+        <div class="container mx-auto px-8 lg:mb-20">
+            <div class="carousel w-full lg:h-[500px]">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="./Images/1.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="./Images/2.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="./Images/3.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide4" class="carousel-item relative w-full">
+                    <img src="./Images/4.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+            </div>
+            <!-- hockeys samply section  end -->
+
+            <!-- hockeys image text -->
+            <div class="lg:w-1/2 bg-[#131318] rounded-2xl lg:absolute bottom-7 right-[130px] mt-4">
+                <h3 class="text-xl font-extrabold text-[#FFFFFF] px-8 pt-8">Meet all the heroes from the field</h3>
+                <p class="text-[#FFFFFF] font-medium px-8 pt-5 pb-8">Skate onto the ice with fire in your veins, puck in
+                    focus, and victory on your mind. Every stride, every pass, every shot they matter.</p>
+            </div>
+        </div>
+        <!-- hockeys image text end-->
     </header>
     <main>
+        <section class="container mx-auto text-center">
+            <h3 class="text-3xl font-extrabold">Professional Hockeys Club</h3>
+            <p class="w-1/2 mx-auto pt-5">A powerhouse on the ice, this esteemed club boasts a legacy of skill,
+                teamwork, and triumph. From seasoned veterans to rising stars, every player embodies a commitment to the
+                sport's highest standards. </p>
+        </section>
+
+        <section>
+            <div class="radial-progress text-red-600 rotate-[130deg]" style="--value:87; --size:6rem; --thickness: 10px;" role="progressbar"> <span class="rotate-[-130deg] text-black">87%</span>
+            </div>
+
+            <div class="radial-progress text-red-600 rotate-[130deg]" style="--value:87; --size:6rem; --thickness: 10px;" role="progressbar"> <span class="rotate-[-130deg] text-black">87%</span> 
+            </div>
+
+            <div class="radial-progress text-red-600 rotate-[130deg]" style="--value:87; --size:6rem; --thickness: 10px;" role="progressbar"> <span class="rotate-[-130deg] text-black">87%</span>  
+            </div>
+
+            <div class="radial-progress text-red-600 rotate-[130deg]" style="--value:87; --size:6rem; --thickness: 10px;" role="progressbar"> <span class="rotate-[-130deg] text-black">87%</span>
+            </div>
+               
+        </section>
+
 
     </main>
     <footer>
